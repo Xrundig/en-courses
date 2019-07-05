@@ -15,7 +15,12 @@ header{
 }
 body{
 	font-family: MontserratMedium;
+	min-width: 320px;
 }
+a{
+	text-decoration: none;
+}
+
 .header-left{
 	width: 50%;
 }
@@ -75,8 +80,38 @@ body{
 	background: white;
 }
 .carousel-element {
-	padding: 30px;
+	padding: 10px;
 	text-align: center;
-	font-size: 300%;
-	border-right: 1px solid #777;
+}
+.img-respons{
+	width: 100%;
+	height: auto;
+}
+.price{
+	padding: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+	text-align: center;
+}
+.carousel-element ul{
+	list-style-type: none;
+}
+.contact{
+	background-color: #e9e9e9;
+	padding: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+	text-align: center;
+}
+.contact-wrapper{
+	display: flex;
+}
+.map{
+	width: 640px;
+	height: 400px;
+	overflow: hidden;
+}
+.address{
+	width: 50%;
+
 }
